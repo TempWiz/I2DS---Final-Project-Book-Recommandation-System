@@ -25,8 +25,9 @@
 
 - Do simple rankings of tags:
   + By amount of books in tags
-  + By download count of all books in tags
-  + By average ratings of all books in tags
+  + By amount of tag connections
+  + By download count of all books in tags [TBD]
+  + By average ratings of all books in tags [TBD]
 
 - Show tags trend:
   + By year
@@ -49,3 +50,5 @@
 - Build a book-tag matrix (book as rows, tags as columns), with 1 being the book has the tag, and 0 otherwise
 
 - Apply similarity measures (cosine, Jaccard) to create a **basic book recommendation system**.
+
+- Favor newer books
