@@ -46,7 +46,7 @@
 
 - Using heurisic (a combination of book count, tag popularity and tags relation) to decide the parent-child relation between each node &rarr; The resulted tree is the **ideal book indexer**
 
-## Create a basic book recommendation system
+## Create a basic book recommendation system --> TDThinh (Coi trước)
 
 - Build a book-tag matrix (book as rows, tags as columns), with 1 being the book has the tag, and 0 otherwise
 
