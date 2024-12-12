@@ -10,20 +10,21 @@
 
 ## Preparing the data
 
-- Do [EDA](https://www.geeksforgeeks.org/what-is-exploratory-data-analysis/)
+- NQThinh
+  - Do [EDA](https://www.geeksforgeeks.org/what-is-exploratory-data-analysis/) 
+  - Only include tags that have **5** associated books at minimum.
 
-- Only include tags that have **5** associated books at minimum.
+- Split compound tags into smaller tags automatically and manually, e.g., -->  
+  + **"History -- 1932"** &rarr; **"History"**, **"1932"** --> __TNguyen__
 
-- Split compound tags into smaller tags automatically and manually, e.g.,  
-  + **"History -- 1932"** &rarr; **"History"**, **"1932"**
-  + **"Sci-fi"**, **"SF"**
-   &rarr; **"Science Fiction"**
+  + **"Sci-fi"**, **"SF"** --> 
+   &rarr; **"Science Fiction"** [Top 50, 100, 200] --> __QVuong__
 
-- Check tags for profanity or illegal content.
+- Check tags/books for profanity or illegal content. [Top 200, 500] --> __MQuang__
 
-## Finding simple patterns
+## Finding simple patterns --> __TDThinh__
 
-- Do simple rankings of tags:
+- Do simple rankings of tags: 
   + By amount of books in tags
   + By amount of tag connections
   + By download count of all books in tags [TBD]
