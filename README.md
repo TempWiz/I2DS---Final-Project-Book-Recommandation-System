@@ -10,23 +10,25 @@
 
 ## Preparing the data
 
-- Do [EDA](https://www.geeksforgeeks.org/what-is-exploratory-data-analysis/)
+- NQThinh
+  - Do [EDA](https://www.geeksforgeeks.org/what-is-exploratory-data-analysis/) 
+  - Only include tags that have **5** associated books at minimum.
 
-- Only include tags that have **5** associated books at minimum.
+- Split compound tags into smaller tags automatically and manually, e.g., -->  
+  + **"History -- 1932"** &rarr; **"History"**, **"1932"** --> __TNguyen__
 
-- Split compound tags into smaller tags automatically and manually, e.g.,  
-  + **"History -- 1932"** &rarr; **"History"**, **"1932"**
-  + **"Sci-fi"**, **"SF"**
-   &rarr; **"Science Fiction"**
+  + **"Sci-fi"**, **"SF"** --> 
+   &rarr; **"Science Fiction"** [Top 50, 100, 200] --> __QVuong__
 
-- Check tags for profanity or illegal content.
+- Check tags/books for profanity or illegal content. [Top 200, 500] --> __MQuang__
 
-## Finding simple patterns
+## Finding simple patterns --> __TDThinh__
 
-- Do simple rankings of tags:
+- Do simple rankings of tags: 
   + By amount of books in tags
-  + By download count of all books in tags
-  + By average ratings of all books in tags
+  + By amount of tag connections
+  + By download count of all books in tags [TBD]
+  + By average ratings of all books in tags [TBD]
 
 - Show tags trend:
   + By year
@@ -44,8 +46,10 @@
 
 - Using heurisic (a combination of book count, tag popularity and tags relation) to decide the parent-child relation between each node &rarr; The resulted tree is the **ideal book indexer**
 
-## Create a basic book recommendation system
+## Create a basic book recommendation system --> TDThinh (Coi trước)
 
 - Build a book-tag matrix (book as rows, tags as columns), with 1 being the book has the tag, and 0 otherwise
 
 - Apply similarity measures (cosine, Jaccard) to create a **basic book recommendation system**.
+
+- Favor newer books
